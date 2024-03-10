@@ -1,6 +1,8 @@
 # Gamingowe Gamonie's Website
 Simple website made in pure HTML, CSS and JavaScript meant to showcase our group project. We started it in january of 2023 and 10 months later, in october, we have decided to halt the work on the project indefinitely because of various reasons.     
-This page is currently online at <a href="https://ggbielsko.byst.re/">this address</a>.
+This page is currently online at <a href="https://ggbielsko.byst.re/">this address</a>.     
+
+This repository uses git LFS to store bigger files, so downloading it may not work. Pulling it though works just fine for me.    
          
 ![image](https://github.com/Raytreq/GG-Website/assets/136091294/321a2aad-9177-4e96-9392-37e65916728b)      
         
