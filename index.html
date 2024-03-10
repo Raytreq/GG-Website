@@ -1,0 +1,369 @@
+<!-- KOD JEST DALECE NIEOPTYMALNY, MOŻNA GO ZROBIĆ ZNACZNIE LEPIEJ, JESTEM ŚWIADOMY, ALE NIE MAM WYBORU JAK TO ODŁOŻYC NA CZAS NIEOKREŚLONY  -->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG - Gra w Unity</title>
+    <meta name="author" content="Krzysztof Rozmus">
+    <meta name="description" content="Strona o naszym projekcie gry RPG z widokiem izometrycznym w Unity">
+    <meta name="keywords" content="gra, Unity, game, RPG, isometric view, Unity game engine, game engine, RPG game, steampunk">
+
+    <link rel="icon" href="img/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script>
+        function portfolioKrzysiek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGKrzysiek").className += " GGactive";
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Krzysztof Rozmus";
+            document.getElementById("gamonRola").innerHTML = "Lider projektu";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Chwilowo brak";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: ENTJ-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src = "img/glowna/wykresy potencjalu/krzysiek.png";
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Krzyśka";
+            document.getElementById("gamonOpis").innerHTML = "Chcąc opisać rolę Krzyśka w projekcie i jego cechy osobowości, których najczęściej używał przez 8 miesięcy pracy, najtrafniej będzie go określić kapitanem, pobocznym artystą graficznym oraz pobocznym projektantem gry i łącznikiem między wszystkimi członkami zespołu(jako, że on jedyny znał wszystkich i skonstruował ekipę). Pomysł na projekt takiej skali powstał kiedy Krzysiek i Janek przypomneli sobie, że chcieli wiele wieków temu zrobić razem grę, a w międzyczasie się zbliżał termin na wymyślenie projektu dla wychowawcy w klasie Krzyśka, Rafała, Szymka i Bartka. Nim się obejrzeliśmy skończyliśmy w tym pięknym aktualnym momencie, kiedy to pracujemy nad grą za niedługo już rok w całkiem pokaźnym gronie. No, ale wracając do tego kompletnego nudziarza to ogółem uwielbia grać w gry z ziomkami i spędzać z nimi czas, ale połowe czasu coś tam gada, że ma za dużo na głowie i kończy się na tym, że niektóre gry z nim się przechodziło ponad rok(Janek pozdrawia z Borderlandsami; Bartek i Jasiek z Dark Soulsami). Interesuje również się amatorsko kulturami innych europejskich krajów, w sierpniu 2023 przepracował cały miesiąc zbierając maliny w Norwegii nie będać nawet pełnoletnim.";
+        }
+
+        function portfolioBartek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGBartek").className += " GGactive";
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Bartłomiej Szostak";
+            document.getElementById("gamonRola").innerHTML = "Główny programista";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Brak";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: INFP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/bartek.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Bartka";
+            document.getElementById("gamonOpis").innerHTML = "Nietuzinkowe poczucie humoru, nieskończona wiedza o Linuxie, talent i pasja do programowania obiektowego(przynajmniej przed tym jak wymyślili szkołę), wprawa w amatorskim robieniu utworów oraz wielka fascynacja RPG'ami. To Bartek Szostak dokładnie w 25 słowach. Krążą również legendy, że posiada niejednego sobowóra, ponieważ ta bestia ma prawie idealną frekwencję i to w Słowaku! Jeśli chodzi o wkład w grę, przyjęła rolę programisty z Szymonem, mimo, że z chęcią mogłaby również zająć się opracowaniem niesamowitej oprawy muzycznej. Była prawie na każdym fizycznym spotkaniu jakie przeprowadziliśmy, co należy pochwalić, bo nie raz zdarzały się przypadki kiedy na spotkanie przychodziły 2 osoby z 7 w tym lider. W wolnym czasie poza byciem informatycznym nerdem Bartek również lubi pograć z przeróżnej maści gry, przykładowo Souls-like'i, RPG'i, gry najlepsze z ekipą i wiele więcej. Poza tym uwielbia słuchać muzyki i jest fanem numer 1 Dawida Podsiadło(prawidłowo).";
+        }
+
+        function portfolioSzymek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGSzymek").className += " GGactive";
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Szymon Wandzel";
+            document.getElementById("gamonRola").innerHTML = "Programista";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Brak";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: INTP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/szymek.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Szymka";
+            document.getElementById("gamonOpis").innerHTML = "Niepozorny, lecz zabójczo przystojny; cichy, ale charyzmatyczny i przenikliwy kiedy tylko zapragnie; ciutkę leniwy, lecz niesamowicie efektywny, gdy coś zacznie. Szymek Wandzel to jedna z wielu osób, którą na pierwszy rzut oka uznasz za przecietną, a potem zorientujesz się, że bardziej mylić się nie mogłeś. Poza byciem wielkim fanem esportu i gier(przede wszystkim ligi), Szymuś również fascynuje się na wiele sposób chińską kulturą i zgłebia wiele jej utworów od dawien dawna. Ostatnio też zaczął się interesować bardziej programowaniem stron internetowych, ale jest również całkiem nie najgorszym programistą obiektowym. W projekcie zajmował się grzebaniem i kodowaniem w Unity razem z Bartkiem, innymi słowy był odpowiedzialny za wprowadzanie wszystkich naszych chorych i ciekawych pomysłów w życie. Jako jedyna osoba z ekipy mieszka aktualnie w Buczkowicach.";
+        }
+
+        function portfolioRafal() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGRafal").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Rafał Machnik";
+            document.getElementById("gamonRola").innerHTML = "Główny artysta";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 17 lat (2006)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Kelner w Pszczynie";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: ISFP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/rafal.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Rafała";
+            document.getElementById("gamonOpis").innerHTML = "Możnaby pomyśleć, że Rafał jako jedyna osoba z Pszczyny, która najmniej znała się z resztą ekipy, miałaby najtrudniej odnaleźć się w zespole, znaleźć motywację do pracy oraz być w stanie wydajnie i dużo pracować. Nic bardziej mylnego! Nawet jeśli Rafał określa siebie mianem leniwego trudno przypomnieć sobie jakiekolwiek dni w szkole, kiedy nie przynosi swojego potężnego laptopa i nie pracuje nad modelami. Pracuje w blenderze już całkiem nie mało, zrobił na obecną chwilę przynajmniej dziesiątki ciekawych i porządnych modelów. Dlatego więc w projekcie obrał rolę głównego artysty. Jest również całkiem dobrym młodym aspirującym programistą, nie ważne czy musi pisać we frontedzie, backendzie, C# czy jeszcze nie wiadomo czym innym. Tak poza tym Rafał fascynuje się astronomią, gastronomią i jedzeniem suchego makaronu podczas grania w GTA 5.";
+        }
+
+        function portfolioPiotrek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGPiotrek").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Piotr Rozmus";
+            document.getElementById("gamonRola").innerHTML = "Główny projektant gry";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 22 lata (2001)";
+            document.getElementById("gamonSzkola").innerHTML = "Wykształcenie: I LO w Bielsku";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Monter izolacji w Holandii";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: ISTP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/piotrek.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Piotrka";
+            document.getElementById("gamonOpis").innerHTML = "Piotrek to najmniej zmotywowana i najbardziej sumienna osoba jaką kiedykolwiek poznasz w życiu w jednym. Zawsze interesowało go zrobienie gry, a za niedługo miną dwie dekady od kiedy w ogóle interesuje się grami. Ukończył I Liceum Ogólnokształcące im. Mikołaja Kopernika w 2020 i od tamtego czasu stał się dumnym monterem izolacji głównie na zakładach przemysłowych w Holandii. Nie posiadał zbytnio żadnych umiejętności, które bezpośrednio mógł wykorzystać w takim projekcie, jednak jako, że bardzo lubił czytać książki(głównie fantastykę) objął stanowisko projektanta samej gry oraz powiedzmy naszego swego rodzaju wieszcza. W praktyce okazał się jedną z osób najbardziej sumiennie podchodzących do projektu pomimo, że przyznał kilka razy, że projekt sam w sobie nie fascynuje go jakoś nie wiadomo jak. Poza tym uwielbia grać w gry strategiczne, nawet jeśli twierdzi, że nie jest w nie jakoś specjalnie dobry. Kocha też pić mleko(prawidłowo), bardzo lubi odwiedzać Włochy i jest starszym bratem Krzyśka.";
+        }
+
+        function portfolioJasiek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGJasiek").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Jan Tarnawa";
+            document.getElementById("gamonRola").innerHTML = "Artysta";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Brak";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: ISTP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/jasiek.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Jaśka";
+            document.getElementById("gamonOpis").innerHTML = "Jasiek jest całkiem niepozorną osobą. Na pierwszy rzut oka wydaje się nie posiadać żadnych szczególnych umiejętności czy zdolności, ale to jednak dlatego, że rzadko zdarza się mu chcieć je pokazywać. Kiedy w końcu ma okazję może nawet i podołać trudniejszemu zadaniu, bez problemu dając sobie radę. Podjął się roli grafika, ponieważ w tej dziedzinie ma największą wprawę, w końcu zrobił nie jednego mema. Poza tym Jasiek bardzo interesuje się przeróżnymi grami, do jego personalnych faworytów należą ARK, G'MOD, Payday, Terraria i wiele innych. Dołączył do projektu dopiero po dwóch miesiącach, na początku projektu kompletnie nie braliśmy go pod uwagę, ale w pewnym momencie nadeszła potrzeba zrobienia porządków w składzie i zrekrutowania nowych agentów. <br> Ciekawostka: Jasiek i Krzysiek będą się za niedługo znali 14 lat. Jedyne co być może zna Jasia dłużej to jego dres, który lubi czasem ubierać do szkoły.";
+        }
+
+        function portfolioJanek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGJanek").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#757879";
+            document.getElementById("gamonImie").innerHTML = "Jan Koczur";
+            document.getElementById("gamonRola").innerHTML = "Opuścił projekt w jego trakcie";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: I LO w Bielsku (4 klasa; maturalna)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Sklep hobbystyczny Hegemon";
+            document.getElementById("wykresLabel").style.display = 'none';
+            document.getElementById("gamonTyp").style.display = 'none';
+            document.getElementById("gamonWykres").style.display = 'none';
+            document.getElementById("gamonOpis").innerHTML = "Janek z początku chciał uczestniczyć w projekcie, miał nawet całkiem świetne zadatki, bo był z nas najlepszą osobą do napisania świata gry. Po około trzech miesiącach jednak w honorowy sposób odpuścił pracę z nami, głównym powodem było pękające w szwach życie prywatne, czyli szkoła, praca w tygodniu, bycie przybocznym harcerskiej drużyny wędrowniczej i nie tylko. Miał zauważalny wpływ na nasz projekt, a przynajmniej na wzmiankę o nim połowa ekipy jakoś dziwnie się cieszy, co może być dowodem jego nietypowego podejścia i niezaprzeczalnej charyzmy. Nawet pomimo opuszczenia oficjalnie projektu Janek nie jeden raz nam dopomógł radą.";
+        }
+
+        function portfolioKuba() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGKuba").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#136ac2";
+            document.getElementById("gamonImie").innerHTML = "Jakub Skraba";
+            document.getElementById("gamonRola").innerHTML = "Główny artysta muzyczny";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 22 lata (2001)";
+            document.getElementById("gamonSzkola").innerHTML = "Wykształcenie: ZSEEiM; obecnie uczęszcza na Politechnikę Śląską w Gliwicach";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Call Center Agent w Euvic'u w Gliwicach";
+            document.getElementById("gamonTyp").innerHTML = "Typ osobowości: INTP-T";
+            document.getElementById("wykresLabel").style.display = 'block';
+            document.getElementById("gamonWykres").style.display = 'inline';
+            document.getElementById("gamonWykres").src="img/glowna/wykresy potencjalu/kuba.png"
+            document.getElementById("gamonWykres").alt = "Wykres umiejętności Kuby";
+            document.getElementById("gamonOpis").innerHTML = "<b>Wielce</b> charyzmatyczny, <b>monumentalnie</b> odpowiedzialny i zoorganizowany oraz <b>gigantycznie</b> uwielbiany przez ekipę. Kuba z początku niekoniecznie miał zdolności idealnie odpowiedne do naszego projektu, lecz dzięki temu, że zawsze chciał się zabrać za muzykę i nawet trochę znał się na programowaniu, bez problemu odnalazł miejsce w naszej ekipie. W praktyce przez wiele kłopotów w życiu prywatnym jak np. rodzina, studia, praca w weekendy i od niedawna praca w tygodniu Kuba nie był w stanie, pod wględem samej pracy, znacząco się przynić do naszego projektu, <b>ALE</b> obowiązkowo trzeba wspomnieć, że gdyby nie jego zaangażowanie i trud by zjawić się na prawie każdym spotkaniu byłoby nam znacznie trudniej prowadzić projekt, jako, że to on prawie cały czas dbał o to żeby każdy miał jak dojechać na miejsce spotkania. Wiele razy też gdyby nie przyniósł swojego laptopa i kilku kabelków, przeprowadzalibyśmy nasze spotkania znacznie mniej wydajnie. Poza tym Skraba interesuję się motoryzacją, elektroniką, informatyką, składaniem komputerów i jedzeniem sushi(prawidłowo).";
+        }
+
+        function portfolioGrzesiek() {
+            Array.from(document.querySelectorAll('.GGactive')).forEach(function(el) { 
+                el.classList.remove('GGactive');
+            });
+            document.getElementById("GGGrzesiek").className += " GGactive";
+
+
+            document.getElementById("gamon").style.backgroundColor = "#757879";
+            document.getElementById("gamonImie").innerHTML = "Grzegorz Wojcieszyk";
+            document.getElementById("gamonRola").innerHTML = "Opuścił projekt w jego trakcie";
+            document.getElementById("gamonWiek").innerHTML = "Wiek: 18 lat (2005)";
+            document.getElementById("gamonSzkola").innerHTML = "Obecnie uczęszcza do: III LO w Bielsku (4 klasa; maturalna)";
+            document.getElementById("gamonPraca").innerHTML = "Praca: Brak";
+            document.getElementById("wykresLabel").style.display = 'none';
+            document.getElementById("gamonTyp").style.display = 'none';
+            document.getElementById("gamonWykres").style.display = 'none';
+            document.getElementById("gamonOpis").innerHTML = "Grzesiek był z nami od początku, ale trochę szybko się zorientowaliśmy, że niekoniecznie chce być zaangażowany w projekt. Przez może 2 miesiące pracy nad projektem widzieliśmy go na całym jednym spotkaniu, więc w końcu skonfrontowaliśmy go i okazało się, że woli jednak sobie odpuścić, mimo, że z początku był całkiem chętny. Objął rolę muzycznego artysty, miał nawet do tego smykałkę i wprawę, bo grał ponad 10 lat na pianinie i uczył się o muzyce, lecz w takich projektach jak ktoś nie chce to trzeba po prostu odpuścić i życzyć szczęścia, bo przymuszanie to najgorsze co można zrobić.";
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logoContainer">
+            <img src="img/glowna/logo.png" alt="Logo">
+            <h3>Gamingowe Gamonie™</h3>
+        </a>
+        <div>
+            <a href="index.html" class="active">Strona główna</a>
+            <a href="pracaBartka.html">Praca Bartka</a>
+            <a href="pracaRafala.html">Praca Rafała</a>
+            <a href="pracaSzymka.html">Praca Szymka</a>
+            <a href="pracaKrzyska.html">Praca Krzyśka</a>
+        </div>
+    </nav>
+
+    
+    <main>
+        <div class="groupBanner">
+            <img src="img/glowna/grupowy_banner.png" alt="Grupowy banner naszego zespołu">
+        </div>
+
+        <p class="responsywnoscXDDD">Według przeglądarki przeglądasz stronę na urządzeniu o mniejszej szerokości wyświetlacza niż 1700px. Przepraszam, ale z powodu wielu innych spraw na głowie i deadline'u nie byłem w stanie jeszcze ogarnąć wsparcia w wyświetlaniu strony dla takich urządzeń. Zalecam włączyć stronę na monitorze o rodzielczości co najmniej Full HD (1920 x 1080). Jak tylko dam radę ogarnę ten problem.</p>
+
+        <header class="main">
+            <h2>Trochę o projekcie</h2>
+            <p> 
+                Gamingowe Gamonie(nazwa półrobocza, skrót: GG) to zespół, który założyliśmy w około 6-7 osób w celu stworzenia wspólnie gry. Szczerze powiedzawszy gdy zaczynaliśmy na początku to było wszystko co wiedzieliśmy, że chcemy dokonać. Zaczęło się od tego, że wiele pojedynczych osób, które znam, było zainteresowane stworzeniem jakiejkolwiek gry. Bartek, Rafał i Szymek wtedy zastanawiali się czy podjąć się takiego zadania jako projekt dla pana Michniowskiego; Ja(Krzysiek), Piotrek i Janek już w tamtym momencie od dłuższego czasu myślelismy o zrobieniu prostej gierki, ale jakoś nam to cały czas uciekało z przeróżnych powodów. W końcu zmotywowani wybraniem jakiegoś projektu do pokazania kilka miesięcy później naszemu wychowawcy zdecydowaliśmy się kopnąć w gaz i już w lutym 2023r. zebrałem wszystkich potencjalnie chętnych w celu wtajemniczenia ich w pomysł zrobienia gry. Po kilku tygodniach, kiedy wiele wstępnych kwestii organizacyjnych mieliśmy za sobą, zaczeliśmy pracę nad grą pod roboczym tytułem "Steampunk 1877", a potem nastąpiły jedne z ciekawszych miesięcy w moim życiu do tej pory. Styl naszej pracy został zapożyczony z metodologi Scrum, co znaczy, że przez większość projektu co dwa tygodnie organizowaliśmy spotkanie fizyczne całej ekipy(gdzie ocenialiśmy wyniki wcześniejszej pracy, dyskutowaliśmy o problemach i przydzielaliśmy zadania do zrobienia do następnego spotkania fizycznego lub konstulacji z kapitanem online). Nawet jeżeli teraz projekt się kompletnie wywalił o własne nogi, wydaje mi się, że wiele ciekawego z tego doświadczenia możemy wynieść i wam opowiedzieć. Najpierw jednak pozwólcie, że przedstawią wam naszą ekipą bystrych i skromnych geniuszów, znanych również jako Gamonie.
+            </p>
+        </header>
+
+        <h2 >Poznaj gamoni:</h2>
+        <section class="gamoniePortfolio">
+            <div class="gamonie">
+                <div onclick="portfolioBartek()" class="gamonCard" id="GGBartek">
+                    <img src="img/glowna/gamonie/bartek.png" alt="Zdjęcie Bartka">
+                    <h4>Bartek Szostak</h4>
+                    <p>Lead Coder</p>
+                </div>
+                <div onclick="portfolioKrzysiek()" class="gamonCard, GGactive" id="GGKrzysiek">
+                    <img src="img/glowna/gamonie/krzysiek.png" alt="Zdjęcie Krzyśka">
+                    <h4>Krzysiek Rozmus</h4>
+                    <p>Project Manager</p>
+                </div>
+                <div onclick="portfolioSzymek()" class="gamonCard" id="GGSzymek">
+                    <img src="img/glowna/gamonie/szymek.png" alt="Zdjęcie Szymona">
+                    <h4>Szymon Wandzel</h4>
+                    <p>Side Coder</p>
+                </div>
+                <br>
+                <div onclick="portfolioRafal()" class="gamonCard" id="GGRafal">
+                    <img src="img/glowna/gamonie/rafal.png" alt="Zdjęcie Rafała">
+                    <h4>Rafał Machnik</h4>
+                    <p>Lead Artist</p>
+                </div>
+                <div onclick="portfolioPiotrek()" class="gamonCard" id="GGPiotrek">
+                    <img src="img/glowna/gamonie/piotrek.png" alt="Zdjęcie Piotrka">
+                    <h4>Piotrek Rozmus</h4>
+                    <p>Lead Game Designer</p>
+                </div>
+                <div onclick="portfolioJasiek()" class="gamonCard" id="GGJasiek">
+                    <img src="img/glowna/gamonie/jasiek.png" alt="Zdjęcie Jaśka">
+                    <h4>Jasiek Tarnawa</h4>
+                    <p>Side Artist</p>
+                </div>
+                <br>
+                <div onclick="portfolioJanek()" class="gamonCard" id="GGJanek">
+                    <img src="img/glowna/gamonie/janek_BW.png" alt="Zdjęcie Janka">
+                    <h4>Janek Koczur</h4>
+                    <p>Lead Writer</p>
+                </div>
+                <div onclick="portfolioKuba()" class="gamonCard" id="GGKuba">
+                    <img src="img/glowna/gamonie/kuba.png" alt="Zdjęcie Kuby">
+                    <h4>Kuba Skraba</h4>
+                    <p>Lead Music Artist</p>
+                </div>
+                <div onclick="portfolioGrzesiek()" class="gamonCard" id="GGGrzesiek">
+                    <img src="img/glowna/gamonie/grzesiek_BW.png" alt="Zdjęcie Grześka">
+                    <h4>Grzesiek Wojcieszyk</h4>
+                    <p>Lead Music Artist</p>
+                </div>
+
+            </div>
+            <div class="gamon" id="gamon">
+                <h1 id="gamonImie">Krzysztof Rozmus</h2>
+                <h2 id="gamonRola">Lider projektu</h2>
+                <h3 id="gamonWiek">Wiek: 18 lat (2005)</h3>
+                <h3 id="gamonSzkola">Obecnie uczęszcza do: ZSEEiM w Bielsku (4 klasa)</h3>
+                <h3 id="gamonPraca">Praca: Chwilowo brak</h3>
+                <h3 id="gamonTyp">Typ osobowości: ENTJ-T</h3>
+                <h3 id="wykresLabel">Wykres potencjału:</h3>
+                <img src="img/glowna/wykresy potencjalu/krzysiek.png" alt="Wykres umiejętności Krzyśka" id="gamonWykres">
+                <p id="gamonOpis">Chcąc opisać rolę Krzyśka w projekcie i jego cechy osobowości, których najczęściej używał przez 8 miesięcy pracy, najtrafniej będzie go określić kapitanem, pobocznym artystą graficznym oraz pobocznym projektantem gry i łącznikiem między wszystkimi członkami zespołu(jako, że on jedyny znał wszystkich i skonstruował ekipę). Pomysł na projekt takiej skali powstał kiedy Krzysiek i Janek przypomneli sobie, że chcieli wiele wieków temu zrobić razem grę, a w międzyczasie się zbliżał termin na wymyślenie projektu dla wychowawcy w klasie Krzyśka, Rafała, Szymka i Bartka. Nim się obejrzeliśmy skończyliśmy w tym pięknym aktualnym momencie, kiedy to pracujemy nad grą za niedługo już rok w całkiem pokaźnym gronie. No, ale wracając do tego kompletnego nudziarza to ogółem uwielbia grać w gry z ziomkami i spędzać z nimi czas, ale połowe czasu coś tam gada, że ma za dużo na głowie i kończy się na tym, że niektóre gry z nim się przechodziło ponad rok(Janek pozdrawia z Borderlandsami; Bartek i Jasiek z Dark Soulsami). Interesuje również się amatorsko kulturami innych europejskich krajów, w sierpniu 2023 przepracował cały miesiąc zbierając maliny w Norwegii nie będać nawet pełnoletnim.</p>
+            </div>
+        </section>
+
+        <section class="dodatkowaPraca">
+            <h2>Dodatkowa praca</h2>
+            <p style="margin-left: 20%; margin-right: 20%"> Poza jakąkolwiek naszą pracą, o której tutaj wspominamy, istnieje też nie mało pracy wykonanej przez resztę członków naszego zespołu lub pracy, której z jednego albo drugiego powodu nie pokazaliśmy na naszych podstronach. Chciabym tutaj zaprezentować najciekawsze jej przykłady.</p>
+
+            <h3>Muzyka:</h3>
+            <h4>Untitled44 by Bartek Szostak</h4>
+            <audio controls>
+                <source src="media/glowna/untitled44.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio> 
+            <h4>Bez Tytułu by Grzegorz Wojcieszyk</h4>
+            <audio controls>
+                <source src="media/glowna/bez_tytulu.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio> 
+            <h4>"Gamonie" by Jakub Skraba (nieskończone)</h4>
+            <audio controls>
+                <source src="media/glowna/Gamonie.mp3" type="audio/mpeg">
+                Your browser does not support the audio tag.
+              </audio>
+              
+              <h3>Grafika:</h3>
+              <h4>Rysunek siostry Rafała na podstawie concept arta wykonanego przez Jaśka</h4>
+              <img src="img/glowna/mc.png" alt="Rysunek głównego bohatera">
+
+              <h4>Design systemu walki zrobiony przez Krzyśka</h4>
+              <img src="img/glowna/render1.png" alt="Zaimplementowanie designów w walce">
+              <p style="margin-top: 16px;">Nie skończyłem go zupełnie, bo nie zrobiłem paska życia. Wykorzystałem do tła grafikę z internetu, w końcowym produkcie byłaby to jakaś grafika zrobiona przez nas.</p>
+
+              <h4>Model "Dragon Slayer" zrobiony przez Jaśka w celu nauki</h4>
+              <img src="img/glowna/Dragonslayer.png" alt="Model miecza Gutsa z Berserka">
+
+              <p style="margin-left: 20%; margin-right: 20%"">Dodatkowo głównie Piotrek, ale też i Janek oraz ja pracowaliśmy nad wieloma dokumentami google opisującymi fabułę gry, przedstawiony świat oraz wiele więcej, jednak nie będę się tutaj tym dzielił, bo jest tego za dużo żeby to fajnie pokazać, a upublicznianie tego może nam zaszkodzić, jeśli owy materiał planowalibyśmy jeszcze kiedykolwiek wykorzystać.</p>
+        </section>
+            
+        <section class="etapyProjektu">
+            <h2>Etapy projektu</h2>
+            <p> 
+                Nasza praca nad projektem składała się z 5 głównych etapów kompletnie różnej długości. Były to:
+            </p>
+            <ol>
+                <li>Faza organizacyjna, kiedy to wszyscy namyślaliśmy sie czy chcemy wziąść udział w projekcie. {Spotkanie 1 - Spotkanie 3}</li>
+                <li>Faza planowania, kiedy to wszyscy skupiliśmy się na określeniu podstaw fabuły i przedstawionego świata, kierunku artystycznego i muzycznego w celu dogadania jednej wspólnej wizji {Spotkanie 4 - Spotkanie 9}</li>
+                <li>Faza właściwej pracy, kiedy to podzieliliśmy się na 4 fronty(graficzny, muzyczny, fabularny i programistyczny) oraz zaczęliśmy pracę nad projektem w pełni. Na jej początku projekt opuścili Grzesiek i Janek, a zjawił się Jasiek {Spotkanie 9 Spotkanie 13}</li>
+                <li>Faza Norweskiego Kapitana, kiedy to na cały sierpień wyjechałem do Norwegii na ponad miesiąc aby zarabiać. Prowadziłem projekt zdalnie, tak jak wszyscy chcieli, jednak nie byłem w stanie fizycznie się poświęcać aż tak bardzo jak wcześniej aby próbować zmotywować zespół. Aby wykorzystać też resztę wakacji postanowaliśmy skrócić długość sprintu z 14 dni do 10, co oznacza, że co 10 dni ustalaliśmy kolejne zadania. {Konsultacja 14 - Konsultacja 17}</li>
+                <li>Faza dogorywania, kiedy to przez wiele powodów w życiu każdego nie byliśmy wstanie przywrócić momentum oraz wcześniejszego zapału i z każdym dalszym spotkaniem było widać mniejsze zaangażowanie u każdego oraz mniejszą wiarę w projekt {Spotkanie 18 - Spotkanie 22}</li>
+            </ol>
+        </section>
+
+        <section class="theEndOfGamonvelion">
+            <h2>Koniec projektu</h2>
+            <video id="koniecProjektu" width="70%" style="border-radius: 2%;" controls>
+                <source src="media/glowna/to_nasza_wiadomosc.mp4" type="video/mp4">(Twoja przeglądarka nie wspiera
+                wideo)
+            </video>
+            <p> 
+                Wszystko co dobre ma swój koniec. Więc tymbardziej wszystko co nie jest zbytnio idealne ma swój kres. W sobotę 28 października osoby, które pofatygowały się zjawić na naszym typowym spotkaniu(lekko ponad połowa zespołu) przyznały, że nie czują już pasji do projektu oraz kontynuowanie go na razie sprawiałoby im więcej problemów niż przyjemności. Potem skontaktowaliśmy się z resztą i dokładnie jak przypuszczaliśmy nie napotkaliśmy zbytnio sprzeciwów, jak już to wręcz odwrotnie. Dlatego więc postanowaliśmy zawiesić projekt naszej gry, lecz nie znaczy to, że do niej nie wrócimy, ale obstawiam, że jeśli mielibyśmy to za długi czas, kiedy to w naszych życiach będą ku temu lepsze warunki, a my będziemy bardziej doświadczeni. Wciąż jednak stanowczo każdy członek ekipy się zgadza, że nawet jeśli trochę im szkoda projektu, niesamowicie cieszą się z faktu, że w nim w ogóle mieli szansę uczestniczyć oraz prędko go nie zapomną. Czas spędzony na projekcie to zdecydowanie nie był czas stracony, a ja z przyjemnością mogę powiedzeć, iż odniosłem wrażenie, że w sporej części członków ekipy rozwiązanie go wzbudziło ogień i zapał do zrobienia czegoś innego, ale tym razem już z obitym tyłkiem i udoskonaloną wiedzą jakich błędów nie popełniać.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Autor strony: Krzysztof Rozmus</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona Rafała</title>
+    <meta name="author" content="Rafał Machnik">
+    <meta name="description" content="Strona o naszym projekcie gry RPG z widokiem izometrycznym w Unity">
+    <meta name="keywords" content="gra, Unity, game, RPG, isometric view, Unity game engine, game engine, RPG game, steampunk">
+
+    <link rel="icon" href="img/favicon.png" type="image/gif">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" class="logoContainer">
+            <img src="img/glowna/logo.png" alt="Logo">
+            <h3>Gamingowe Gamonie™</h3>
+        </a>
+        <div>
+            <a href="index.html">Strona główna</a>
+            <a href="pracaBartka.html">Praca Bartka</a>
+            <a href="pracaRafala.html" class="active">Praca Rafała</a>
+            <a href="pracaSzymka.html">Praca Szymka</a>
+            <a href="pracaKrzyska.html">Praca Krzyśka</a>
+        </div>
+    </nav>
+
+    <main style="width: 75%; margin: auto;">
+        <p class="responsywnoscXDDD">Według przeglądarki przeglądasz stronę na urządzeniu o mniejszej szerokości wyświetlacza niż 1700px. Przepraszam, ale z powodu wielu innych spraw na głowie i deadline'u nie byłem w stanie jeszcze ogarnąć wsparcia w wyświetlaniu strony dla takich urządzeń. Zalecam włączyć stronę na monitorze o rodzielczości co najmniej Full HD (1920 x 1080). Jak tylko dam radę ogarnę ten problem.</p>
+        <h2 class="text-center">Krótki opis pracy</h2>
+        <p>
+            Pracę nad modelami rozpocząłem po otrzymaniu zarysu mapy ukazującej budynki na danym obszarze oraz ich wstępny układ.
+        </p>
+        <div class="text-center">
+            <img src="img/podstrona Rafala/Other/MapaLevel0_Warrington.png" alt="Mapa Level 0" class="img-responsive h-350px">
+        </div>
+
+        <p>
+            Pierwszą rzeczą przed zaczęciem modelowania było znalezienie obrazów referencyjnych, na podstawie których powstaną wszystkie modele. Po zebraniu obrazów budynków w różnych stylach zrobiliśmy szybkie głosowanie z resztą, po którym zebrałem więcej zdjęć budynków odpowiednich do wybranych w głosowaniu styli.
+        </p>  
+        <div class="text-center">
+            <img src="img/podstrona Rafala/Other/TrainStations.png" alt="vote imgs" class="img-responsive h-200px mx-10px">
+            <img src="img/podstrona Rafala/Other/Factories.png" alt="vote imgs" class="img-responsive h-200px mx-10px">
+            <img src="img/podstrona Rafala/Other/TrainUnload.png" alt="vote imgs" class="img-responsive h-200px mx-10px">
+            <h4>↓ Po głosowaniu ↓</h4>
+            <img src="img/podstrona Rafala/Other/WarringtonTS.png" alt="reference imgs" class="img-responsive h-350px mx-10px">
+            <img src="img/podstrona Rafala/Other/Factory.png" alt="reference imgs" class="img-responsive h-350px mx-10px">
+            <img src="img/podstrona Rafala/Other/ContainerCrane.png" alt="reference imgs" class="img-responsive h-350px mx-10px">
+        </div>
+
+        <p>
+            Z zebranymi obrazami rozpocząłem pracę nad modelowaniem budynków. Najtrudniejszą cześcią było utrzymanie odpowiedniej skali pomiędzy różnymi częściami modelu, gdyż ze zdjęć praktycznie niemożliwe jest określenie dokładnych wymiarów, dlatego też trzeba używać różnych punktów odniesień jak na przykład wymiary okien, które łatwo można znaleźć w interecie. Równie ciężkie było znalezienie dobrej jakości darmowych tekstur. W tym przypadku użyłem tekstur ze strony <a href="https://www.textures.com/library" target="_blank">textures.com</a> .
+        </p>
+        <div class="text-center">
+            <img src="img/podstrona Rafala/Other/texturescom.png" alt="Textures.com" class="img-responsive h-350px">
+        </div>
+
+        <br>
+        <h2 class="text-center mb-0">Galeria Modeli</h2>
+        <h6 class="text-center mt-0 mb-0">Modele gotowe na dzień 31.10.2023 (w raz z powstawaniem nowych modeli będą się one pojawiać tutaj)</h6>
+        <h6 class="text-center mt-0">[ All models are Royalty Free ]</h6>
+
+        <h3 class="text-center">Warrington Train Station (Stacja Kolejowa w Warrington)</h3>
+        <div class="text-center h-300 sroll-horizon">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem.png" alt="train station progress 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem2.png" alt="train station progress 2" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem3.png" alt="train station progress 3" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem4_roof.png" alt="train station progress 4" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem5_roof.png" alt="train station progress 5" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem6.png" alt="train station progress 6" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_stem7.png" alt="train station progress 7" class="img-responsive h-200px">
+
+            <h4 class="text-center">Skończony model</h4>
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_finish1.png" alt="train station finish 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_finish2.png" alt="train station finish 2" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_finish3.png" alt="train station finish 3" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/TrainStation/TrainStation_finish4.png" alt="train station finish 4" class="img-responsive h-200px">
+            
+            <br><br><br>
+
+            <a href="media/podstrona Rafala/TrainStation.fbx" download class="download">DOWNLOAD</a>
+        </div>
+
+        <br>
+        <hr>
+        
+        <h3 class="text-center">Warrington Factory (Fabryka w Warrington)</h3>
+        <div class="text-center">
+            <img src="img/podstrona Rafala/Factory/Factory1.png" alt="factory progress 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory2.png" alt="factory progress 2" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory3.png" alt="factory progress 3" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory4.png" alt="factory progress 4" class="img-responsive h-200px">
+
+            <h4 class="text-center">Skończony model</h4>
+            <img src="img/podstrona Rafala/Factory/Factory_ingame.png" alt="factory finish 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory_ingame2.png" alt="factory finish 2" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory_ingame3.png" alt="factory finish 3" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Factory/Factory_ingame4.png" alt="factory finish 4" class="img-responsive h-200px">
+            
+            <br><br><br>
+
+            <a href="media/podstrona Rafala/Factory.fbx" download class="download">DOWNLOAD</a>
+        </div>
+
+        <br>
+        <hr>
+
+        <h3 class="text-center">Container Crane (Dźwig kontenerowy)</h3>
+        <div class="text-center">
+            <img src="img/podstrona Rafala/Crane/ContainerCrane1.png" alt="crane progress 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Crane/ContainerCrane2_semitextured.png" alt="crane progress 2" class="img-responsive h-200px">
+
+            <h4 class="text-center">Skończony model</h4>
+            <img src="img/podstrona Rafala/Crane/ContainerCrane_finished1.png" alt="crane finish 1" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Crane/ContainerCrane_finished2.png" alt="crane finish 2" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Crane/ContainerCrane_finished3.png" alt="crane finish 3" class="img-responsive h-200px">
+            <img src="img/podstrona Rafala/Crane/ContainerCrane_finished4.png" alt="crane finish 4" class="img-responsive h-200px">
+
+            <br><br><br>
+
+            <a href="media/podstrona Rafala/ContainerCrane.fbx" download class="download">DOWNLOAD</a>
+        </div>
+
+        <br><br>
+
+    </main>
+
+    <footer>
+        <p style="padding-bottom: 4px;padding-top: 14px;">Autor podstrony: Rafał Machnik</p>
+        <p style="padding-bottom: 4px; padding-top: 0">Discord: xralph18</p>
+        <p style="padding-bottom: 4px; padding-top: 0;">Mail: rafal.machnik4@gmail.com</p>
+        <p style="padding-top: 0;padding-bottom: 14px;"><a href="https://github.com/xRalph18" target="_blank" style="color:white;">GitHub</a></p>
+    </footer>
+</body>
+
+</html>
